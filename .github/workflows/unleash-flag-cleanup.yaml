@@ -2,7 +2,7 @@ name: Unleash Flag Cleanup
 
 on:
   issues:
-    types: [opened, labeled]
+    types: [labeled]
 
 jobs:
   flag_cleanup:
