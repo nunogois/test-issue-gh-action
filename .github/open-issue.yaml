@@ -1,7 +1,8 @@
 name: Open Issue
 
 on:
-  workflow_dispatch:
+  repository_dispatch:
+    types: ['webhook']
 
 jobs:
   create_issue:
